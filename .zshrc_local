@@ -1,9 +1,3 @@
-# Set DISPLAY AUTOMACTICALLY
-if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_CONNECTION" ]; then
-    export DISPLAY=:0.0
-fi
-alias chdis='env| grep DISPLAY'
-
 alias lrt="ls -lrt"
 alias ll="ls -l"
 alias lu="source ~/login.cmd"
@@ -18,4 +12,11 @@ alias ss="sudo mdutil -a -i off"
 alias gist="gist -c"
 alias df="df -h"
 alias rl="source ~/.zshrc"
+export E2="219.228.57.246"
+export Eu="219.228.57.73"
 alias mn="sudo mount.cifs //219.228.57.61/Data ~/NET-SCRATCH -o password=rtmao1992,sec=ntlm,uid=haihuam,vers=1.0"
+alias ce="curl -s https://www.f2pool.com/eth/0xD09e166b3DD9385475355B3E8c7247CF5d0Bde23 | grep -P '^\(ETH\)' -A 3 | grep 'span'  | sed 's/<span>//'   | sed 's/<\/span>//'"
+# Set for disable auto rename
+DISABLE_AUTO_TITLE="true"
+alias px='/usr/bin/proxychains'
+alias chw="curl wttr.in"
