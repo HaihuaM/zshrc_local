@@ -21,3 +21,4 @@ alias ce="curl -s https://www.f2pool.com/eth/0xD09e166b3DD9385475355B3E8c7247CF5
 DISABLE_AUTO_TITLE="true"
 alias px='/usr/bin/proxychains'
 alias chw="curl wttr.in"
+alias les2="ssh lsun@59.78.197.77"
