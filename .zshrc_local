@@ -19,6 +19,7 @@ alias mn="sudo mount.cifs //219.228.57.61/Data ~/NET-SCRATCH -o password=rtmao19
 alias ce="curl -s https://www.f2pool.com/eth/0xD09e166b3DD9385475355B3E8c7247CF5d0Bde23 | grep -P '^\(ETH\)' -A 3 | grep 'span'  | sed 's/<span>//'   | sed 's/<\/span>//'"
 # Set for disable auto rename
 DISABLE_AUTO_TITLE="true"
-alias px='/usr/bin/proxychains'
+alias px='/usr/bin/proxychains4'
 alias chw="curl wttr.in"
 alias les2="ssh lsun@59.78.197.77"
+alias fs="/home/haihuam/anaconda3/bin/python /home/haihuam/Projects/mmdetection-nightly-sys/util/file_sync.py"
